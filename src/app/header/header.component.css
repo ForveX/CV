@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.orangeTriangle {
+  -webkit-clip-path: polygon(50% 0%, 0 0, 40% 19%);
+  clip-path: polygon(50% 0%, 0 0, 40% 19%);
+  background: orange;
+  height: 100px;
+  width: 100%;
+}
+.blackTriangle1 {
+  -webkit-clip-path: polygon(50% 0%, 54% 0, 34% 28%);
+  clip-path: polygon(50% 0%, 54% 0, 34% 28%);
+  background: black;
+  height: 100px;
+  width: 100%;
+}
+
+.blackTriangle2 {
+  -webkit-clip-path: polygon(12% 15%, 93% 43%, 21% 0);
+  clip-path: polygon(12% 15%, 93% 43%, 21% 0);
+  background: black;
+  height: 100px;
+  width: 100%;
+}
+
+.purpleTriangle {
+  -webkit-clip-path: polygon(50% 0%, 31% 32%, 100% 0);
+  clip-path: polygon(50% 0%, 31% 32%, 100% 0);
+  background: mediumpurple;
+  height: 100px;
+  width: 100%;
+}
+
+.redTriangle {
+  -webkit-clip-path: polygon(1% 49%, 78% 0, 18% 13%);
+  clip-path: polygon(1% 49%, 78% 0, 18% 13%);
+  background: red;
+  height: 100px;
+  width: 100%;
+}
